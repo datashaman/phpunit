@@ -1,8 +1,10 @@
 {
-    "name": "datashaman/prop",
+    "name": "datashaman/phpunit",
     "require-dev": {
+        "fzaninotto/faker": "^1.8",
+        "nunomaduro/collision": "^3.0",
         "phpunit/phpunit": "^8.0",
-        "fzaninotto/faker": "^1.8"
+        "symfony/var-dumper": "^4.2"
     },
     "authors": [
         {
@@ -24,5 +26,8 @@
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true
+    },
+    "require": {
+        "phpunit/php-timer": "^2.1"
     }
 }
