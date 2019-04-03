@@ -4,13 +4,10 @@ namespace Datashaman\PHPUnit;
 
 use Exception;
 use Faker\Factory;
-use NunoMaduro\Collision\Provider;
 use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\AssertionFailedError;
-use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
 use PHPUnit\Framework\TestResult;
-use PHPUnit\TextUI\ResultPrinter;
 use ReflectionClass;
 use ReflectionMethod;
 use ReflectionParameter;
